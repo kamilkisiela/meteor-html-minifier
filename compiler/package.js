@@ -1,5 +1,5 @@
 Package.describe({
-  name: '1mys:hmc',
+  name: 'mys:hmc',
   version: '0.0.2',
   git: 'https://github.com/kamilkisiela/meteor-html-minifier-repro',
   summary: 'test',

@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'mys:hm',
+  name: 'mys:hmcc',
   version: '0.0.2',
   git: 'https://github.com/kamilkisiela/meteor-html-minifier-repro',
   summary: 'test',
@@ -10,11 +10,15 @@ Package.registerBuildPlugin({
   name: 'htmlMinifer',
   use: [
     'ecmascript@0.2.0',
-    'mys:hmc@0.0.2'
+    'caching-compiler@1.0.2',
   ],
   sources: [
+    'compiler.js',
     'plugin.js'
-  ]
+  ],
+  npmDependencies: {
+    'html-minifier': '2.1.3'
+  }
 });
 
 Package.onUse(function(api) {
