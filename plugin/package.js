@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mys:hm',
-  version: '0.0.2',
+  version: '0.0.4',
   git: 'https://github.com/kamilkisiela/meteor-html-minifier-repro',
   summary: 'test',
   documentation: null
@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
   name: 'htmlMinifer',
   use: [
     'ecmascript@0.2.0',
-    'mys:hmc@0.0.2'
+    'mys:hmc@0.0.4'
   ],
   sources: [
     'plugin.js'

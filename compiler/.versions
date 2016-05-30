@@ -6,7 +6,7 @@ ecmascript-runtime@0.2.10
 meteor@1.1.14
 modules@0.6.1
 modules-runtime@0.6.3
-mys:hmc@0.0.2
+mys:hmc@0.0.4
 promise@0.6.7
 random@1.0.9
 underscore@1.0.8
